@@ -211,7 +211,8 @@ Understand hourly and daily demand to improve staffing and production planning.
 Analyze customer purchasing behavior and product performance to develop targeted promotions and pricing strategies.
 
 ---
-<img width="571" height="313" alt="image" src="https://github.com/user-attachments/assets/2b2f7f14-a5ac-49c3-9d3f-9682d114e5b0" />
+<img width="613" height="339" alt="image" src="https://github.com/user-attachments/assets/b7ab9eb7-8ee3-43c2-9e26-b9452f8ebe4a" />
+
 
 
 # 📈 Key Insights
