@@ -214,41 +214,76 @@ Analyze customer purchasing behavior and product performance to develop targeted
 <img width="613" height="339" alt="image" src="https://github.com/user-attachments/assets/b7ab9eb7-8ee3-43c2-9e26-b9452f8ebe4a" />
 
 
-#📂 Project Structure
+# 📂 Project Structure
+
+```text
 Pizza_Sales_Analysis/
+│
+├── README.md                             # Project documentation
+├── requirements.txt                      # Python dependencies
+├── .gitignore                            # Git ignored files
+├── LICENSE                               # Project license (optional)
 │
 ├── data/
 │   ├── raw/
-│   │   └── pizza_sales.csv
+│   │   └── pizza_sales.csv               # Original dataset
+│   │
 │   └── processed/
-│       └── cleaned_pizza_sales.csv
+│       └── cleaned_pizza_sales.csv       # Cleaned dataset
 │
 ├── notebooks/
-│   └── Pizza_sales.ipynb
-│
-├── sql/
-│   ├── pizza_sales_script.sql
-│   └── business_queries.sql
-│
-├── powerbi/
-│   └── Pizza_sales_dashboard.pbix
-│
-├── reports/
-│   ├── Business Requirements Document.pdf
-│   └── insights.pdf
-│
-├── images/
-│   └── dashboard_screenshots/
+│   └── Pizza_sales.ipynb                 # Exploratory Data Analysis (EDA)
 │
 ├── src/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── eda.py
-│   └── etl_pipeline.py
+│   ├── data_cleaning.py                  # Data cleaning script
+│   ├── feature_engineering.py            # Feature engineering
+│   ├── eda.py                            # Exploratory Data Analysis
+│   ├── etl_pipeline.py                   # ETL pipeline
+│   └── utils.py                          # Helper functions
 │
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── sql/
+│   ├── schema.sql                        # Database schema
+│   ├── data_load.sql                     # Data import script
+│   ├── pizza_sales_script.sql            # KPI & Business Queries
+│   └── views.sql                         # SQL Views (optional)
+│
+├── powerbi/
+│   ├── Pizza_sales_dashboard.pbix        # Power BI dashboard
+│   ├── dax_measures.txt                  # DAX calculations
+│   └── power_query_steps.txt             # Power Query transformations
+│
+├── reports/
+│   ├── Business_Requirements_Document.pdf
+│   ├── insights.pdf
+│   └── project_summary.pdf
+│
+├── images/
+│   ├── dashboard_screenshots/
+│   │   ├── overview_dashboard.png
+│   │   ├── sales_trends.png
+│   │   ├── best_sellers.png
+│   │   ├── category_analysis.png
+│   │   └── filters.png
+│   │
+│   └── workflow.png
+│
+├── docs/
+│   ├── business_requirements.md
+│   ├── data_dictionary.md
+│   └── dashboard_design.md
+│
+└── outputs/
+    ├── cleaned_dataset.csv
+    ├── sql_query_results.csv
+    └── charts/
+        ├── daily_sales.png
+        ├── hourly_sales.png
+        ├── monthly_sales.png
+        ├── category_sales.png
+        ├── size_sales.png
+        ├── top_5_pizzas.png
+        └── bottom_5_pizzas.png
+```
 
 
 # 📈 Key Insights
