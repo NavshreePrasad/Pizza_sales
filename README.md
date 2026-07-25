@@ -214,6 +214,42 @@ Analyze customer purchasing behavior and product performance to develop targeted
 <img width="613" height="339" alt="image" src="https://github.com/user-attachments/assets/b7ab9eb7-8ee3-43c2-9e26-b9452f8ebe4a" />
 
 
+#📂 Project Structure
+Pizza_Sales_Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── pizza_sales.csv
+│   └── processed/
+│       └── cleaned_pizza_sales.csv
+│
+├── notebooks/
+│   └── Pizza_sales.ipynb
+│
+├── sql/
+│   ├── pizza_sales_script.sql
+│   └── business_queries.sql
+│
+├── powerbi/
+│   └── Pizza_sales_dashboard.pbix
+│
+├── reports/
+│   ├── Business Requirements Document.pdf
+│   └── insights.pdf
+│
+├── images/
+│   └── dashboard_screenshots/
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── eda.py
+│   └── etl_pipeline.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
 
 # 📈 Key Insights
 
